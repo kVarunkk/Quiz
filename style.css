@@ -83,7 +83,7 @@ nav{
     margin-bottom: 60px;
     background-color: aliceblue;
     cursor: default;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 .text1, .text2, .text3, .text4, .text5{
@@ -134,7 +134,7 @@ nav{
 
 
 form{
-    height: auto;
+    height: 100px;
     padding: 30px;
     display: flex;
     justify-items: center;
@@ -208,8 +208,8 @@ form{
     cursor: pointer;
     padding: 10px 30px;
     display: block;
-    width: 110px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
     font-size: large;
     margin-bottom: 20px;
     border: solid 3px rgb(41, 229, 54);
@@ -223,8 +223,8 @@ form{
     cursor: pointer;
     padding: 10px 16px;
     display: block;
-    width: 110px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
     font-size: large;
     margin-bottom: 20px;
     border: solid 3px rgb(41, 229, 54);
@@ -237,8 +237,8 @@ form{
     cursor: pointer;
     padding: 12px 25px;
     display: block;
-    width: 110px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
     font-size: large;
     margin-bottom: 20px;
     font-weight: bold;
