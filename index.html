@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&family=Lato:ital@1&family=Satisfy&family=Permanent+Marker&family=Playfair+Display:ital@1&family=Oswald&family=Montserrat&family=Playfair+Display:wght@900&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="myAudio">
+        <source src="click.wav" type="audio/wav">
+    </audio>
+
+    <audio id="myAudio1">
+        <source src="win.wav" type="audio/wav">
+    </audio>
+
+    <audio id="myAudio2">
+        <source src="lose.wav" type="audio/wav">
+    </audio>
+
+    <audio id="myAudio3">
+        <source src="achieve.wav" type="audio/wav">
+    </audio>
+
+
+    <div class="all-wrap">
+        <nav>
+            <a class="brand" href="#">Quiz App</a>
+            <a class="light">Light</a>
+            <a class="dark">Dark</a>
+         </nav>
+     
+         <div class="full-wrap">
+
+            <div class="wrapper new ">
+                
+                <div class="intro-text">
+                    <form action="">
+                        <input type="text"  placeholder="Enter Name to attempt Quiz" class="input-text">
+                        <input type="submit" value="ENTER" class="input-submit"><br><br>
+                    </form>
+                    <!-- <div class="text-only">Are you Ready?</div> -->
+                </div>
+        
+                <div class="arrows">
+                    <a class="attempt">Attempt Now</a>
+                </div>
+        
+            </div>
+
+             <div class="wrapper ">
+                 <div class="question1 fade">
+                     <b>Q1.</b> What was Twitter originally called?
+                 </div>
+         
+         
+                 <div class="option fade">
+                     <div class="order">A</div> 
+                     <div class="text1">Twttr</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">B</div>
+                     <div class="text1">Twittr</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">C</div>
+                     <div class="text1">Twtter</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">D</div>
+                     <div class="text1">Twitr</div>
+                 </div>
+         
+                 <div class="arrows">
+                     <a class="right">Next</a>
+                 </div>
+         
+             </div>
+     
+             <div class="wrapper ">
+                 <div class="question2 fade">
+                     <b>Q2.</b>When was Bitcoin launched?
+                 </div>
+         
+         
+                 <div class="option fade">
+                     <div class="order">A</div> 
+                     <div class="text2">2008</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">B</div>
+                     <div class="text2">2010</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">C</div>
+                     <div class="text2">2006</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">D</div>
+                     <div class="text2">2009</div>
+                 </div>
+         
+                 <div class="arrows">
+                     <a class="left" >Previous</a>
+                     <a class="right">Next</a>
+                 </div>
+         
+             </div>
+     
+             <div class="wrapper ">
+                 <div class="question3 fade">
+                     <b>Q3.</b> Which language is used to give functionality to Websites?
+                 </div>
+         
+         
+                 <div class="option fade">
+                     <div class="order">A</div> 
+                     <div class="text3">HTML</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">B</div>
+                     <div class="text3">CSS</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">C</div>
+                     <div class="text3">JavaScript</div>
+                 </div>
+                 <div class="option fade">
+                     <div class="order">D</div>
+                     <div class="text3">None</div>
+                 </div>
+         
+                 <div class="arrows">
+                     <a class="left" >Previous</a>
+                     <a class="right" >Next</a>
+                 </div>
+         
+             </div>
+
+             <div class="wrapper ">
+                <div class="question4 fade">
+                    <b>Q4.</b> What does 'DC' in the name: DC Comics stand for?
+                </div>
+        
+        
+                <div class="option fade">
+                    <div class="order">A</div> 
+                    <div class="text4">Detective Cops</div>
+                </div>
+                <div class="option fade">
+                    <div class="order">B</div>
+                    <div class="text4">Detective Comics</div>
+                </div>
+                <div class="option fade">
+                    <div class="order">C</div>
+                    <div class="text4">Delusional Creatures</div>
+                </div>
+                <div class="option fade">
+                    <div class="order">D</div>
+                    <div class="text4">Detective Creator</div>
+                </div>
+        
+                <div class="arrows">
+                    <a class="left" >Previous</a>
+                    <a class="right" >Next</a>
+                </div>
+        
+            </div>
+
+
+            <div class="wrapper ">
+                <div class="question5 fade">
+                    <b>Q5.</b> In what year was the Corvette introduced?
+                </div>
+        
+        
+                <div class="option fade">
+                    <div class="order">A</div> 
+                    <div class="text5">1983</div>
+                </div>
+                <div class="option fade">
+                    <div class="order">B</div>
+                    <div class="text5">1962</div>
+                </div>
+                <div class="option fade">
+                    <div class="order">C</div>
+                    <div class="text5">1953</div>
+                </div>
+                <div class="option fade">
+                    <div class="order">D</div>
+                    <div class="text5">1977</div>
+                </div>
+        
+                <div class="arrows">
+                    <a class="left" >Previous</a>
+                    <a class="finish" >Finish</a>
+                </div>
+        
+            </div>
+     
+             <div class="wrapper ">
+                 <div class="result">
+     
+                     
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
