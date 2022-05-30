@@ -1,33 +1,33 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #2d3436;
-background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
-/* transition: all 0.3s ease */
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* transition: all 0.3s ease */
 }
 
-*{
+* {
     box-sizing: border-box;
 }
 
-.all-wrap{
+.all-wrap {
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 
-nav{
+nav {
     font-size: 2rem;
     font-family: 'Oswald';
     display: inline;
 }
 
-.brand{
+.brand {
     text-decoration: none;
     color: rgb(235, 169, 255);
     margin-left: 14%;
@@ -35,47 +35,44 @@ nav{
     font-weight: 900;
 }
 
-.light, .dark{
+.light, .dark {
     text-decoration: none;
     cursor: pointer;
     font-size: 1.2rem;
     padding: 5px 20px;
 }
 
-.light{
+.light {
     margin-left: 51%;
     margin-right: 40px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-.dark{
+.dark {
     background-color: #2d3436;
     color: aliceblue;
 }
 
 
 
-
-
 .full-wrap {
     max-width: 1000px;
-    /* height: 700px; */
     position: relative;
-    margin: 60px auto ;
+    margin: 60px auto 170px;
 }
 
 
-.wrapper{
+.wrapper {
     height: 80%;
     background-color: rgb(65, 65, 65);
     margin: auto;
     padding-bottom: 10px;
     display: none;
-   
+
 }
 
-.question1, .question2, .question3, .question4, .question5{
+.question1, .question2, .question3, .question4, .question5 {
     font-size: 1.6rem;
     text-align: center;
     padding: 35px;
@@ -86,28 +83,29 @@ nav{
     font-family: 'Dosis', sans-serif;
 }
 
-.text1, .text2, .text3, .text4, .text5{
+.text1, .text2, .text3, .text4, .text5 {
     padding: 7px 10px;
     width: 100%;
     font-family: 'Montserrat';
 }
 
-.result{
+.result {
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: aliceblue;
     font-style: italic;
     padding: 50px 0;
+    font-weight: 600;
 }
 
-.order{
+.order {
     background-color: aquamarine;
     padding: 6px 10px;
     font-family: 'Oswald';
     color: black;
 }
 
-.option{
+.option {
     display: flex;
     width: 90%;
     font-size: 1.2rem;
@@ -121,19 +119,19 @@ nav{
     cursor: pointer;
 }
 
-.option:hover{
+.option:hover {
     opacity: 0.8;
 }
 
 
-.arrows{
+.arrows {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
 
 
-form{
+form {
     height: 100px;
     padding: 30px;
     display: flex;
@@ -142,19 +140,17 @@ form{
     justify-content: center;
 }
 
-.intro-text{
+.intro-text {
     font-size: 4rem;
     color: rgb(243, 243, 199);
     text-shadow: #2d3436 5px 5px;
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    /* margin-top: 50px; */
     margin-bottom: 60px;
     padding-top: 10px;
-    /* padding-bottom: 50px; */
 }
 
-.input-text{
+.input-text {
     padding: 10px;
     width: 35%;
     height: 40px;
@@ -162,11 +158,11 @@ form{
     font-size: 1.15rem;
 }
 
-.input-text:focus{
+.input-text:focus {
     outline: none;
 }
 
-.input-submit{
+.input-submit {
     height: 39px;
     width: 13%;
     border-radius: 0;
@@ -179,27 +175,24 @@ form{
     color: white;
 }
 
-.new{
+.new {
     background-color: rgba(127, 255, 212, 0.663);
 }
 
-.attempt{
-    cursor:pointer;
+.attempt {
+    cursor: pointer;
     pointer-events: none;
     padding: 20px 50px;
     display: block;
     color: aliceblue;
-    /* width: 110px; */
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
     margin-bottom: 50px;
-    /* border: solid 3px rgb(41, 229, 54); */
     background-color: rgb(41, 91, 229);
     border-radius: 10px;
-    /* box-shadow:  5px 7px 6px rgba(100, 100, 111, 0.2); */
 }
 
-.attempt:hover{
+.attempt:hover {
     background-color: rgb(0, 110, 255);
 }
 
@@ -208,7 +201,6 @@ form{
     cursor: pointer;
     padding: 10px 30px;
     display: block;
-    
     font-family: 'Roboto', sans-serif;
     font-size: large;
     margin-bottom: 20px;
@@ -219,11 +211,10 @@ form{
 }
 
 
-.left{
+.left {
     cursor: pointer;
     padding: 10px 16px;
     display: block;
-    
     font-family: 'Roboto', sans-serif;
     font-size: large;
     margin-bottom: 20px;
@@ -233,11 +224,10 @@ form{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.finish{
+.finish {
     cursor: pointer;
     padding: 12px 25px;
     display: block;
-    
     font-family: 'Roboto', sans-serif;
     font-size: large;
     margin-bottom: 20px;
@@ -247,7 +237,7 @@ form{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.finish:hover{
+.finish:hover {
     background-color: rgb(9, 182, 9);
 }
 
@@ -285,61 +275,81 @@ form{
 
 
 
-@media(max-width: 480px){
-    .wrapper{
+@media(max-width: 480px) {
+
+    .bg {
+        background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
+    }
+
+    .all-wrap {
+        position: absolute;
+        margin-top: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    .wrapper {
         width: 90%;
         margin-top: 140px;
     }
 
-    .brand{
+    .brand {
         margin-left: 10px;
     }
 
-    .light{
+    .light {
         margin-left: 15%;
         margin-right: 5%;
     }
 
-    .dark{
+    .dark {
         margin-right: auto;
         margin-left: auto;
     }
 
-    form{
+    form {
         flex-direction: column;
-        /* text-align: center; */
+        height: 200px;
     }
 
-    .input-text{
+    .input-text {
         width: 100%;
         font-size: 1.05rem;
     }
 
-    .input-submit{
+    .input-submit {
         width: 40%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
     }
 
-    
+
 }
 
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .bg {
+        background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        z-index: -1;
+    }
 
+    .all-wrap {
+        position: absolute;
+        margin-top: 0rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
